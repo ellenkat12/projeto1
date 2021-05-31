@@ -2,26 +2,26 @@
 div {
     font-size: 16px;
 }
+.titulo{
+    color:rgb(89, 119, 119);
+    
+}
 .formatacao {
     text-decoration: underline;
 }  
 #noticias {
-
-    background: gray;
-    border: 2px red solid;
-    width: 250px;
-    height: 180px;
-    float: left;
-    margin: 10px;
-    font-size: 20px;
     font-weight: bold;
+    color: white;
+    background: rgb(255, 187, 187);
+    width: 288px;
+    padding: 15px;
+    float: left;
+    margin: 100px;
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
 }
-
 #noticias2 {
 
-    background: rgb(107, 89, 89);
+    /*background: rgb(107, 89, 89);
     border: 2px red solid;
     width: 250px;
     height: 180px;
@@ -30,9 +30,27 @@ div {
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-
-}.clear {
+    font-family: 'Times New Roman', Times, serif;*/
+    font-weight: bold;
+    color: white;
+    background: rgb(255, 187, 187);
+    width: 288px;
+    padding: 15px;
+    float: left;
+    margin: 35px;
+    font-style: italic;
+}
+#noticias3 {
+    font-weight: bold;
+    color: white;
+    background: rgb(255, 187, 187);
+    width: 288px;
+    padding: 15px;
+    float: left;
+    margin: 100px;
+    font-style: italic;
+}
+.clear {
 
     clear: both;
 
@@ -51,19 +69,108 @@ div {
     font-family: 'Times New Roman', Times, serif;
 }
 .azul {
-	color: blue;
+	color: rgb(45, 66, 66);;
 }
-#menu {
+/*#menu {
 	border: 1px red solid;
- /* background-color: gray; */
- border-color: red green yellow blue;
- border-width: 1px 5px 8px 10px;
- border-style: solid dotted dashed solid;
-}
+ background-color: rgb(255, 235, 235); 
+ border-color:rgb(255, 187, 187);
+ border-width: 4px 4px 4px 4px;
+ border-style:dashed*/
 #rodape {
-	border: 1px red solid;
- /* background-color: gray; */
- border-color: red green yellow blue;
- border-width: 3px 10px 8px 10px;
+ /*border: 1px red solid;*/
+ background-color: rgb(255, 235, 235); 
+ border-color:rgb(255, 187, 187);
+ border-width: 5px 8px 5px 8px;
  border-style: solid ;
+}
+
+/* galeria de fotos */
+
+#galeria-fundo{
+
+    background: rgb(255, 242, 242);
+}
+#galeria-de-foto{
+
+    background: rgb(255, 187, 187);
+    width: 288px;
+    padding: 15px;
+    float: left;
+    margin: 35px;
+}
+.formato-texto{
+
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cor-de-texto{
+    color:rgb(89, 119, 119);
+}
+/* fim da galeria de fotos */
+
+/* formatação dos links */
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+/* link nao visitados */
+a:link{
+    color: #93cddf
+}
+/* links visitados */
+a:visited{
+    color: #c0c0c0
+}
+/* links hover, passa o cursor em cima */
+a:hover{
+    color: rgb(255, 174, 174)
+}
+/* link ativo, quando estiver clicado */
+a:active{
+    color: #796a6a
+}
+/* fim formatação dos links */
+
+/* posicionamento de elementos */
+
+#conteudo-principal{
+
+background: #dee7e2;
+padding: 10px;
+width: 600px;
+height: 2000px;
+margin: 30px;
+}
+
+.box{
+
+    background: #a7beb1;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+#posicao-relative{
+    position: relative;
+    left: 10px;
+    top: 0;
+    width: 660px;
+}
+
+#posicao-absolute{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+#posicao-fixed{
+    position: fixed;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    background:rgb(45, 66, 66);
 }
